@@ -1,0 +1,236 @@
+body {
+  font-size: 15pt;
+  color: gray;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* navbar */
+.navbar-header{
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}  
+
+.brand-name {
+  color: #CA1B28;
+  flex: 70%;
+}
+
+.navbar-menu ul{
+  display: flex;
+}
+
+.navbar-menu a{
+  padding: 10px;
+  color: white;
+}
+
+/* container */
+.content-intro {
+  width: 100%;
+  display: flex;
+}
+
+.intro-img img{
+  position: center;
+}
+
+.intro-desc h4{
+  color: red;
+}
+
+.intro-desc h1{
+  color: white;
+}
+
+.intro-desc a{
+  padding: 15px;
+  background-color: #CA1B28;      
+  text-decoration: none;
+  color: white;
+}
+
+.content-menu {
+  display: flex;
+}
+
+.menu1,
+.menu2,
+.menu3{
+  margin: 1%;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.menu1 h3,
+.menu2 h3,
+.menu3 h3 {
+  color: white;
+}
+
+.menu1,
+.menu3 {
+  background-color: #1D1D1D;
+}
+
+.menu2 {
+  background-color: #CA1B28;
+}
+
+.menu1 p,
+.menu2 p,
+.menu3 p {
+  color: white;
+}
+
+.menu1 a,
+.menu3 a {
+  color: #CA1B28;
+}
+
+.menu2 a{
+  color: white;
+}
+
+.content-status{
+  width: 100%;
+  display: flex;
+}
+
+.status1,
+.status2,
+.status3 {
+  padding: 5%;
+  margin: 1%;
+}
+
+.content-status h1,
+.content-status h3{
+  color: #CA1B28;
+}
+
+.featured {
+  padding: 5%;
+  margin: 1%;
+  display: flex;
+}
+
+.feat-desc h2{
+  color: white;
+}
+
+.feat-button a{
+  padding: 15px;
+  background-color: #CA1B28;
+  color: white;
+}
+
+.project {
+  display: flex;
+}
+
+.project1-2,
+.project3-4{
+  margin: 1%;
+  padding: 5%;
+}
+
+.project1,
+.project2,
+.project3,
+.project4 {
+  background-color: #1D1D1D;
+  border-radius: 10px;
+}
+
+.project1 h3,
+.project2 h3,
+.project3 h3,
+.project4 h3 {
+  color: white;
+  padding: 5%;
+  margin: 1%;
+}
+
+.project1 a,
+.project2 a,
+.project3 a,
+.project4 a {
+  color: #CA1B28;
+  padding: 5%;
+  margin: 1%;
+}
+
+.contact {
+  margin: 5%;
+  padding: 3%;
+  background-color: #1D1D1D;
+  border-radius: 15px;
+  display: flex;
+}
+
+.contact h2{
+  color: white;
+}
+
+.contact a{
+  padding: 15px;
+  background-color: #CA1B28;
+  color: white;
+}
+
+.btm-menu{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btm-menu ul{
+  display: flex;
+}
+
+.btm-menu a{
+  padding: 10px;
+  color: white;
+}
+
+.btm-line{
+  background-color: #1E1E1E;
+}
+
+/* Footer FontAwesome design*/
+.fa {
+  padding: 25px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 25%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: dimgray;
+  color: white;
+}
+
+.fa-twitter {
+  background: dimgray;
+  color: white;
+}
+
+.fa-instagram {
+  background: dimgray;
+  color: white;
+}
